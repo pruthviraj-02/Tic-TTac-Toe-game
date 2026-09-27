@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🎮 Tic Tac Toe</h1>
+
+    <p id="message">Player X's Turn</p>
+
+    <div class="score">
+        <span>X: <b id="xScore">0</b></span>
+        <span>O: <b id="oScore">0</b></span>
+    </div>
+
+    <div class="game">
+
+        <button onclick="play(0)"></button>
+        <button onclick="play(1)"></button>
+        <button onclick="play(2)"></button>
+
+        <button onclick="play(3)"></button>
+        <button onclick="play(4)"></button>
+        <button onclick="play(5)"></button>
+
+        <button onclick="play(6)"></button>
+        <button onclick="play(7)"></button>
+        <button onclick="play(8)"></button>
+
+    </div>
+
+    <button id="restart" onclick="restart()">🔄 Restart</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
